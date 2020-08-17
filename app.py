@@ -11,7 +11,7 @@ api = Api(app, prefix="/")
 """
     Load and images from service
 """
-loadImageService = LoadImageService()
+# loadImageService = LoadImageService()
 
 
 @app.route('/')

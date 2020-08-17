@@ -22,7 +22,14 @@
     - by tag-<name>: list of ids 
 
 # Vars
-
+    API_URL=
+    API_KEY=
+    EXPIRATION_CACHE=
+    REDIS_HOST=
+    REDIS_PORT=
+    DEVELOPMENT_API_HOST=
+    DEVELOPMENT_API_PORT=
+    DEVELOPMENT_API_DEBUG=
 
 # Request example
     - /search?tag=%23whataview
@@ -41,3 +48,9 @@
       ...
     ]
 ```
+
+# Setup
+    virtualenv env --python=python3.8
+    source env/bin/activate
+    pip install -r requirements.txt
+    python app.py
